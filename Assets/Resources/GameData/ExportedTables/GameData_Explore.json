@@ -1,0 +1,137 @@
+{
+  "tableName": "Explore",
+  "schemaName": "Explore",
+  "sourceFile": "GameData.xlsx",
+  "sourceRelativePath": "GameData.xlsx",
+  "sheetName": "Explore",
+  "rowCount": 10,
+  "columns": [
+    {
+      "name": "ID",
+      "type": "int",
+      "description": "探索交互表（节选关键）"
+    },
+    {
+      "name": "areaName",
+      "type": "string",
+      "description": "区域名称"
+    },
+    {
+      "name": "objaName",
+      "type": "string",
+      "description": "交互物名称"
+    },
+    {
+      "name": "needSkill",
+      "type": "int",
+      "description": "需阴阳眼"
+    },
+    {
+      "name": "costMp",
+      "type": "int",
+      "description": "阴阳眼消耗"
+    },
+    {
+      "name": "reward",
+      "type": "string",
+      "description": "奖励/线索"
+    },
+    {
+      "name": "desc",
+      "type": "string",
+      "description": "描述"
+    }
+  ],
+  "data": [
+    {
+      "ID": 1001,
+      "areaName": "教学楼后过道",
+      "objaName": "旧通知栏",
+      "needSkill": 1,
+      "costMp": 5,
+      "reward": "周大伟与市一中CLUE04",
+      "desc": "浮现周大伟名字"
+    },
+    {
+      "ID": 1002,
+      "areaName": "教学楼后过道",
+      "objaName": "墙角扫帚后",
+      "needSkill": 1,
+      "costMp": 10,
+      "reward": "魇祟锚点石刻ITEM004, CLUE05",
+      "desc": "发现魇祟锚点石刻，获得支线任务"
+    },
+    {
+      "ID": 1003,
+      "areaName": "教学楼后过道",
+      "objaName": "滴水水管",
+      "needSkill": 1,
+      "costMp": 5,
+      "reward": "阴液痕迹CLUE07",
+      "desc": "显现阴液痕迹"
+    },
+    {
+      "ID": 2001,
+      "areaName": "旧仓库外围",
+      "objaName": "废旧课桌椅",
+      "needSkill": 0,
+      "costMp": 0,
+      "reward": "周愿安的旧试卷ITEM005",
+      "desc": "获得周愿安旧试卷"
+    },
+    {
+      "ID": 2002,
+      "areaName": "旧仓库内部",
+      "objaName": "墙角烟头",
+      "needSkill": 0,
+      "costMp": 0,
+      "reward": "三道金线烟头CLUE06",
+      "desc": "三道金线烟头"
+    },
+    {
+      "ID": 2003,
+      "areaName": "旧仓库外墙",
+      "objaName": "涂鸦",
+      "needSkill": 0,
+      "costMp": 0,
+      "reward": "",
+      "desc": "提示宝聚永标记"
+    },
+    {
+      "ID": 3001,
+      "areaName": "自行车棚",
+      "objaName": "电动车储物箱",
+      "needSkill": 0,
+      "costMp": 0,
+      "reward": "周大伟工单CLUE08",
+      "desc": "获得周大伟工单"
+    },
+    {
+      "ID": 3002,
+      "areaName": "自行车棚",
+      "objaName": "地面脚印",
+      "needSkill": 1,
+      "costMp": 4,
+      "reward": "灰白脚印 CLUE10",
+      "desc": "灰白脚印"
+    },
+    {
+      "ID": 4001,
+      "areaName": "操场一角",
+      "objaName": "藤蔓下铁盒",
+      "needSkill": 0,
+      "costMp": 0,
+      "reward": "传达室孙爷爷CLUE11",
+      "desc": "字条指引传达室"
+    },
+    {
+      "ID": 5001,
+      "areaName": "传达室",
+      "objaName": "与老孙对话",
+      "needSkill": 0,
+      "costMp": 0,
+      "reward": "老孙的名片、周大伟最后行踪 CLUE12, ITEM006",
+      "desc": "需先获传达室孙爷爷CLUE11"
+    }
+  ]
+}

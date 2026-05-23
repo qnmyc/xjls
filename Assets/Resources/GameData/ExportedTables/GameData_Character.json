@@ -1,0 +1,50 @@
+{
+  "tableName": "Character",
+  "schemaName": "Character",
+  "sourceFile": "GameData.xlsx",
+  "sourceRelativePath": "GameData.xlsx",
+  "sheetName": "Character",
+  "rowCount": 1,
+  "columns": [
+    {
+      "name": "ID",
+      "type": "int",
+      "description": "ID"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "名称"
+    },
+    {
+      "name": "hp",
+      "type": "int",
+      "description": "血量"
+    },
+    {
+      "name": "mp",
+      "type": "int",
+      "description": "精神力"
+    },
+    {
+      "name": "atk",
+      "type": "int",
+      "description": "基础攻击力"
+    },
+    {
+      "name": "costMp",
+      "type": "int",
+      "description": "能耗"
+    }
+  ],
+  "data": [
+    {
+      "ID": 1001,
+      "name": "赵叶",
+      "hp": 100,
+      "mp": 80,
+      "atk": 30,
+      "costMp": 10
+    }
+  ]
+}

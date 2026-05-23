@@ -1,0 +1,74 @@
+{
+  "tableName": "ClueConnect",
+  "schemaName": "ClueConnect",
+  "sourceFile": "GameData.xlsx",
+  "sourceRelativePath": "GameData.xlsx",
+  "sheetName": "ClueConnect",
+  "rowCount": 4,
+  "columns": [
+    {
+      "name": "ID",
+      "type": "int",
+      "description": "推理连线配置（针对折叠鬼）"
+    },
+    {
+      "name": "clueld1",
+      "type": "int",
+      "description": "所需线索1 ID"
+    },
+    {
+      "name": "clueld2",
+      "type": "int",
+      "description": "所需线索2 ID"
+    },
+    {
+      "name": "addProgress",
+      "type": "float",
+      "description": "连线增加进度"
+    },
+    {
+      "name": "successText",
+      "type": "string",
+      "description": "推理成功反馈文本"
+    },
+    {
+      "name": "costMp",
+      "type": "int",
+      "description": "消耗精神力（战斗内）"
+    }
+  ],
+  "data": [
+    {
+      "ID": 1001,
+      "clueld1": 5,
+      "clueld2": 9,
+      "addProgress": 0.25,
+      "successText": "怨念根源察觉：定魂纹路与锚点术式同源……",
+      "costMp": 5
+    },
+    {
+      "ID": 1002,
+      "clueld1": 8,
+      "clueld2": 6,
+      "addProgress": 0.25,
+      "successText": "行为逻辑连接：宝聚永成员长期活动，鬼物系人为放置……",
+      "costMp": 5
+    },
+    {
+      "ID": 1003,
+      "clueld1": 10,
+      "clueld2": 6,
+      "addProgress": 0.25,
+      "successText": "时间线重合：戴帽男入校后鬼物出现，怨气夹杂对指令的恐惧……",
+      "costMp": 5
+    },
+    {
+      "ID": 1004,
+      "clueld1": 9,
+      "clueld2": 5,
+      "addProgress": 0.25,
+      "successText": "核心矛盾揭示：禁术固定痛苦，锚点抽取痛苦为动力……",
+      "costMp": 5
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "tableName": "Enemy",
+  "schemaName": "Enemy",
+  "sourceFile": "GameData.xlsx",
+  "sourceRelativePath": "GameData.xlsx",
+  "sheetName": "Enemy",
+  "rowCount": 4,
+  "columns": [
+    {
+      "name": "ID",
+      "type": "int",
+      "description": "id"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "名称"
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "description": "类型"
+    },
+    {
+      "name": "hp",
+      "type": "int",
+      "description": "生命值"
+    },
+    {
+      "name": "atk",
+      "type": "int",
+      "description": "攻击力(每回合)"
+    },
+    {
+      "name": "shieldProgress",
+      "type": "float",
+      "description": "怨气护盾初始进度"
+    },
+    {
+      "name": "breakAction",
+      "type": "string",
+      "description": "破盾后行为"
+    },
+    {
+      "name": "reward",
+      "type": "string",
+      "description": "掉落/奖励"
+    },
+    {
+      "name": "desc",
+      "type": "string",
+      "description": "备注"
+    }
+  ],
+  "data": [
+    {
+      "ID": 1001,
+      "name": "低阶游魂·执念残片",
+      "type": "普通",
+      "hp": 20,
+      "atk": 5,
+      "shieldProgress": null,
+      "breakAction": "",
+      "reward": "",
+      "desc": "开场选项击杀"
+    },
+    {
+      "ID": 1002,
+      "name": "",
+      "type": "普通",
+      "hp": 40,
+      "atk": 8,
+      "shieldProgress": null,
+      "breakAction": "",
+      "reward": "",
+      "desc": "共4只"
+    },
+    {
+      "ID": 1003,
+      "name": "爬壁鬼（折叠鬼·有盾）",
+      "type": "有盾",
+      "hp": 60,
+      "atk": 12,
+      "shieldProgress": 0,
+      "breakAction": "转为普通鬼怪，每回合攻击",
+      "reward": "一缕被奴役的执念",
+      "desc": "需推理破盾，共需4次正确推理（每次+25%）"
+    },
+    {
+      "ID": 1004,
+      "name": "宝聚永成员·戴帽男（未出）",
+      "type": "有盾",
+      "hp": 0,
+      "atk": 0,
+      "shieldProgress": 1,
+      "breakAction": "",
+      "reward": "",
+      "desc": "后续章节出现"
+    }
+  ]
+}

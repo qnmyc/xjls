@@ -1,0 +1,110 @@
+{
+  "tableName": "Item",
+  "schemaName": "Item",
+  "sourceFile": "GameData.xlsx",
+  "sourceRelativePath": "GameData.xlsx",
+  "sheetName": "Item",
+  "rowCount": 7,
+  "columns": [
+    {
+      "name": "ID",
+      "type": "int",
+      "description": "道具列表"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "道具名称"
+    },
+    {
+      "name": "type",
+      "type": "int",
+      "description": "类型"
+    },
+    {
+      "name": "effect",
+      "type": "string",
+      "description": "效果"
+    },
+    {
+      "name": "getWay",
+      "type": "string",
+      "description": "获取方式"
+    },
+    {
+      "name": "useLimit",
+      "type": "string",
+      "description": "使用限制"
+    },
+    {
+      "name": "desc",
+      "type": "string",
+      "description": "备注"
+    }
+  ],
+  "data": [
+    {
+      "ID": 1001,
+      "name": "空白黄符",
+      "type": 0,
+      "effect": "可用于绘制攻击/防御符（消耗1张）",
+      "getWay": "初始携带/探索拾取",
+      "useLimit": "战斗中使用",
+      "desc": "赵叶给周愿安折护身符消耗1张"
+    },
+    {
+      "ID": 1002,
+      "name": "矿泉水",
+      "type": 1,
+      "effect": "无直接恢复，可在安全屋烧开泡朱砂茶（回蓝5）",
+      "getWay": "自动贩卖机购买",
+      "useLimit": "安全屋使用",
+      "desc": "需搭配安全屋操作"
+    },
+    {
+      "ID": 1003,
+      "name": "罐装咖啡",
+      "type": 2,
+      "effect": "使用后5分钟内，阴阳眼灵力消耗降低50%",
+      "getWay": "自动贩卖机购买",
+      "useLimit": "探索中使用",
+      "desc": "建议在持续探索前使用"
+    },
+    {
+      "ID": 1004,
+      "name": "魇祟锚点石刻",
+      "type": 3,
+      "effect": "携带者会被鬼物优先锁定，可用于诱饵",
+      "getWay": "教学楼后过道扫帚后",
+      "useLimit": "可主动携带或摧毁",
+      "desc": "摧毁消耗30灵力"
+    },
+    {
+      "ID": 1005,
+      "name": "周愿安的旧试卷",
+      "type": 3,
+      "effect": "可在对话中提及，增加信任",
+      "getWay": "废旧课桌椅",
+      "useLimit": "剧情对话",
+      "desc": ""
+    },
+    {
+      "ID": 1006,
+      "name": "老孙的名片",
+      "type": 3,
+      "effect": "老孙电话，支线相关",
+      "getWay": "与老孙对话后获得",
+      "useLimit": "",
+      "desc": ""
+    },
+    {
+      "ID": 1007,
+      "name": "一缕被奴役的执念",
+      "type": 4,
+      "effect": "回到安全屋可审讯，消耗15灵力，获取额外线索",
+      "getWay": "收服折叠鬼残片",
+      "useLimit": "安全屋使用",
+      "desc": "审讯可获得宝聚永驱策指令信息"
+    }
+  ]
+}

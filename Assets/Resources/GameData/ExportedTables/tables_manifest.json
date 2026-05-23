@@ -1,0 +1,93 @@
+{
+  "generatedAtUtc": "2026-05-01T08:33:46.8007335Z",
+  "tables": [
+    {
+      "tableName": "Chapter1",
+      "sourceFile": "Dialogues.xlsx",
+      "sourceRelativePath": "Dialogues.xlsx",
+      "sheetName": "Dialogue.Chapter1",
+      "outputRelativePath": "Dialogues_Chapter1.json",
+      "rowCount": 12
+    },
+    {
+      "tableName": "Chapter2",
+      "sourceFile": "Dialogues.xlsx",
+      "sourceRelativePath": "Dialogues.xlsx",
+      "sheetName": "Dialogue.Chapter2",
+      "outputRelativePath": "Dialogues_Chapter2.json",
+      "rowCount": 148
+    },
+    {
+      "tableName": "Character",
+      "sourceFile": "GameData.xlsx",
+      "sourceRelativePath": "GameData.xlsx",
+      "sheetName": "Character",
+      "outputRelativePath": "GameData_Character.json",
+      "rowCount": 1
+    },
+    {
+      "tableName": "Clue",
+      "sourceFile": "GameData.xlsx",
+      "sourceRelativePath": "GameData.xlsx",
+      "sheetName": "Clue",
+      "outputRelativePath": "GameData_Clue.json",
+      "rowCount": 12
+    },
+    {
+      "tableName": "ClueConnect",
+      "sourceFile": "GameData.xlsx",
+      "sourceRelativePath": "GameData.xlsx",
+      "sheetName": "ClueConnect",
+      "outputRelativePath": "GameData_ClueConnect.json",
+      "rowCount": 4
+    },
+    {
+      "tableName": "Enemy",
+      "sourceFile": "GameData.xlsx",
+      "sourceRelativePath": "GameData.xlsx",
+      "sheetName": "Enemy",
+      "outputRelativePath": "GameData_Enemy.json",
+      "rowCount": 4
+    },
+    {
+      "tableName": "Explore",
+      "sourceFile": "GameData.xlsx",
+      "sourceRelativePath": "GameData.xlsx",
+      "sheetName": "Explore",
+      "outputRelativePath": "GameData_Explore.json",
+      "rowCount": 10
+    },
+    {
+      "tableName": "Item",
+      "sourceFile": "GameData.xlsx",
+      "sourceRelativePath": "GameData.xlsx",
+      "sheetName": "Item",
+      "outputRelativePath": "GameData_Item.json",
+      "rowCount": 7
+    },
+    {
+      "tableName": "Safehouse",
+      "sourceFile": "GameData.xlsx",
+      "sourceRelativePath": "GameData.xlsx",
+      "sheetName": "Safehouse",
+      "outputRelativePath": "GameData_Safehouse.json",
+      "rowCount": 4
+    },
+    {
+      "tableName": "Skill",
+      "sourceFile": "GameData.xlsx",
+      "sourceRelativePath": "GameData.xlsx",
+      "sheetName": "Skill",
+      "outputRelativePath": "GameData_Skill.json",
+      "rowCount": 6
+    },
+    {
+      "tableName": "YinYangEyeCostTable",
+      "sourceFile": "GameData.xlsx",
+      "sourceRelativePath": "GameData.xlsx",
+      "sheetName": "YinYangEyeCostTable",
+      "outputRelativePath": "GameData_YinYangEyeCostTable.json",
+      "rowCount": 3
+    }
+  ]
+}
