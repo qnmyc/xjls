@@ -1,0 +1,155 @@
+{
+  "tableName": "Chapter1",
+  "schemaName": "Dialogue",
+  "sourceFile": "Dialogues.xlsx",
+  "sourceRelativePath": "Dialogues.xlsx",
+  "sheetName": "Dialogue.Chapter1",
+  "rowCount": 12,
+  "columns": [
+    {
+      "name": "id",
+      "type": "int",
+      "description": "ID"
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "description": "头像"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "名称"
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "description": "文本"
+    },
+    {
+      "name": "nextId",
+      "type": "int",
+      "description": "下一句ID"
+    },
+    {
+      "name": "option",
+      "type": "string",
+      "description": "选项"
+    },
+    {
+      "name": "reward",
+      "type": "string",
+      "description": "奖励"
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "avatar": "",
+      "name": "空灵声",
+      "text": "积善之家，必有余庆；积不善之家，必有余殃......",
+      "nextId": 2,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 2,
+      "avatar": "",
+      "name": "系统",
+      "text": "（画面亮起。赵叶猛然从梦中惊醒。）",
+      "nextId": 3,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 3,
+      "avatar": "",
+      "name": "赵叶（内心）",
+      "text": "又来了......已经记不清第几次了。",
+      "nextId": 4,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 4,
+      "avatar": "",
+      "name": "系统",
+      "text": "手机消息：“我们一直在看着你。”",
+      "nextId": 5,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 5,
+      "avatar": "",
+      "name": "系统",
+      "text": "【系统教程·灵力（蓝条）】灵力是你的精神力量与生命能量的混合体……在安全屋打坐可完全恢复灵力。",
+      "nextId": 6,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 6,
+      "avatar": "",
+      "name": "赵叶（内心）",
+      "text": "......先下楼看看吧。万一是只孤魂野鬼，超度了也能积点功德。",
+      "nextId": null,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 7,
+      "avatar": "",
+      "name": "系统",
+      "text": "【自由探索——屋内】",
+      "nextId": null,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 8,
+      "avatar": "",
+      "name": "赵叶（内心）",
+      "text": "沙发：迷迷糊糊就睡过去了，可能是最近太累了。这沙发......睡得腰疼。",
+      "nextId": null,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 9,
+      "avatar": "",
+      "name": "笔记本",
+      "text": "（翻开笔记本）11月3日：超度一只游魂……（最后一页划掉的字）“行疆旅社......黄静淑......解封术......”",
+      "nextId": null,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 10,
+      "avatar": "",
+      "name": "赵叶（内心）",
+      "text": "举报黄老师之后我就退队了。笔记本上没什么重要的东西。",
+      "nextId": null,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 11,
+      "avatar": "",
+      "name": "赵叶（内心）",
+      "text": "蜡烛：一截烧了一半的白蜡烛……为了省电，准备把之前剩的蜡烛先用光。",
+      "nextId": null,
+      "option": "",
+      "reward": ""
+    },
+    {
+      "id": 12,
+      "avatar": "",
+      "name": "系统",
+      "text": "赵叶推开出租屋的门，走进昏暗的楼道。外面隐约传来几声犬吠。",
+      "nextId": null,
+      "option": "",
+      "reward": ""
+    }
+  ]
+}

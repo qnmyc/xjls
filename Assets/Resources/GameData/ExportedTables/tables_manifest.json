@@ -1,0 +1,21 @@
+{
+  "generatedAtUtc": "2026-04-30T05:23:56.8829530Z",
+  "tables": [
+    {
+      "tableName": "Chapter1",
+      "sourceFile": "Dialogues.xlsx",
+      "sourceRelativePath": "Dialogues.xlsx",
+      "sheetName": "Dialogue.Chapter1",
+      "outputRelativePath": "Dialogues_Chapter1.json",
+      "rowCount": 12
+    },
+    {
+      "tableName": "Chapter2",
+      "sourceFile": "Dialogues.xlsx",
+      "sourceRelativePath": "Dialogues.xlsx",
+      "sheetName": "Dialogue.Chapter2",
+      "outputRelativePath": "Dialogues_Chapter2.json",
+      "rowCount": 148
+    }
+  ]
+}
